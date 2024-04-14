@@ -1,3 +1,7 @@
+#[macro_use]
+extern crate std;
 fn main() {
-    println!("Hello, world!");
+    {
+        print!("Hello, world!\n");
+    };
 }
